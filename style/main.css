@@ -19,6 +19,10 @@
   font-weight: 900;  
 }
 
+.info p strong {
+  color: #906258;
+}
+
 .info-plus {
   padding: 40px 0;
 }
