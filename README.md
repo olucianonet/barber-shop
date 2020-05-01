@@ -80,6 +80,46 @@ A partir de agora, determinadas as implementações, para cada feature será cri
 
 ## 1. Página Básica
 
-Como feature inicial criaremos a página básica, composta da estrutura básica do html e todos os elementos definidos na parte 1 do curso.
+A primeira ação é criar um branch onde será desenvolvida a primeira feature:
 
 ```
+git checkout -b feature/pagina-basica
+```
+
+Como feature inicial criaremos a página básica, composta da estrutura básica do html e todos os elementos definidos na parte 1 do curso. Esses elementos são:
+
+- A estrutura obrigatória do html.
+- As configurações do head.
+- Um cabeçalho composto por um header e um banner.
+- Logo abaixo do cabeçalho algumas informações sobre serviços.
+- Um arquivo .css aplicando um estilo a essa estrutura inicial.
+
+Além disso, o projeto deverá atender ao requisitos e utilização dos seguintes recursos/elementos:
+- Utilizar tags h1 e p; :heavy_check_mark:
+- Utilizar negrito e tag strong; :heavy_check_mark:
+- Ênfase em textos com itálico e tag em; :heavy_check_mark:
+- Informar ao navegador a versão do html utilizado, com a tag adequada; :heavy_check_mark:
+- Informar ao navegador o idioma utilizado; :heavy_check_mark:
+- Informar ao navegador o charset utilizado; :heavy_check_mark:
+- Definir um título principal para a página; :heavy_check_mark:
+- Aplicar estilos à página utilizando recursos de:
+	- alinhamento; :heavy_check_mark:
+	- tamanho de fonte; :heavy_check_mark:
+	- cores e textos; :heavy_check_mark:
+	- cores de fundo; :heavy_check_mark:
+- Ajustar tamanho dos elementos utilizando tags; :heavy_check_mark:
+- Configurar espaçamento e externo dos elementos; :heavy_check_mark:
+- Criar listas; :heavy_check_mark:
+- Aplicar o conceito de classes aos elementos; :heavy_check_mark:
+- Dividir seções no arquivo de forma básica; :heavy_check_mark:
+- Alterar o comportamento dos elementos; :heavy_check_mark:
+
+## 1.1 Enviando as alterações para o Github
+
+Atendido a todos os casos de uso anteriores, os próximos passo são:
+
+- Merge do branch `development` com a feature; :heavy_check_mark:
+- Efetua alguns testes; :heavy_check_mark:
+- Checkout na `master` e merge com a `dev`; :heavy_check_mark:
+- Gera a versão; :heavy_check_mark:
+- Realiza o push; :heavy_check_mark:

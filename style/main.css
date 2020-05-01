@@ -1,0 +1,55 @@
+.header h1 {
+  font-size: 30px;
+  font-weight: 900;
+  padding: 20px 20px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.info {
+  background: #CCC;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.info h2 {
+  font-size: 20px;
+  font-weight: 900;  
+}
+
+.info-plus {
+  padding: 40px 0;
+}
+
+.info-plus h2 {
+  font-size: 20px;  
+  text-align: center;
+  font-weight: 900;
+}
+
+.info-plus-list {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5%;
+}
+
+.info-plus-list h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.info-plus-image {
+  display: inline-block;
+  width: 40%;
+}
+
+.container {
+  padding: 20px 0;
+}
+
+p {
+  margin-top: 0 !important;
+}
