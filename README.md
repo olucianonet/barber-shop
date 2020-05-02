@@ -1,6 +1,6 @@
 # Barber SHOP
 
-Uma landing page criada para testar os conhecimentos obtidos nos cursos de HTML5 /CSS3:
+Uma landing page criada para praticar os conhecimentos obtidos nos cursos de HTML5 /CSS3:
 - HTML5 e CSS3 parte 1: A primeira página da Web
 - HTML5 e CSS3 parte 2: Posicionamento, listas e navegação
 - HTML5 e CSS3 parte 3: Trabalhando com formulários e tabelas
@@ -13,10 +13,7 @@ Versionamento realizado utilizando os conhecimentos obtidos nos cursos de git:
 ## Objetivo:
 
 O objetivo é criar uma landing page a partir do conteúdo estudado nos cursos de
-html/css. 
-
-O projeto será composto de várias fases, cada uma representando o conteúdo 
-estudado em cada curso. Desta forma, o projeto estará em constante evolução.
+html/css, seguindo os user stories de cada feature.
 
 Inicialmente teremos as seguintes etapas:
 
@@ -26,75 +23,34 @@ Inicialmente teremos as seguintes etapas:
 3. Trabalhando com formulário e tabelas.
 4. Melhorando o CSS.
 
+Inicialmente o projeto deverá utilizar somente com tecnologias html/css.
+
 ## 0. Criação do repositório
 
-Como primeiro passo, é necessário criar o projeto no Github, já que esse 
-projeto ficará hospeado lá. 
-
-Após a criação do repositório no Github, é necessário realizar o pull dos dados para o ambiente local. 
-
-Assim, crie a pasta que irá conter o projeto, e execute os seguintes comandos:
-
-```
-git init
-git remote add origin ulr-do-projeto-no-github
-touch README.md
-git add . 
-git commit -m 'Commit inicial'
-git push origin master
-git tag -a v0.1.0 -m 'Commit inicial'
-git push origin v0.1.0
-```
-
-Neste momento, temos uma versão inicial, contendo apenas um README com algumas
-instruções do projeto.
-
-### 0.1 Git Flow
-
 A forma de organização de desenvolvimento do projeto será baseada no Git Flow.
-Desta forma, a partir do repositório `master` já existente, daremos início em
-mais um branch chamado `development`. 
 
-No branch `development` ficará o conteúdo principal durante o desenvolvimento,
-composto pelo arquivo README.md, contendo a descrição das atividades do projeto e as features implementas.
+Desta forma, para o controle de versão, o projeto deverá seguir as seguintes regras:
 
-Além do branch development, para cada nova feature implementada será criado um
-novo branch, que ao final da implementação, sofrerá um merge com o development.
-
-A cada implementação, será lançada uma nova release/tag e enviada para o origin.
-
-Hotfixes serão tratados em branch específicos. 
-
-Caso aconteça na master o merge deverá ocorrer diretamente nela e posteriormente o development irá receber o merge do hotifx. 
-
-Caso o hotfix ocorrá na release, a correção poderá ser implementada diretamente
-nela, sem a necessidade de criar um branch específico.
-
-Assim, vamos criar o novo branch `development`:
-
-```
-git checkout -b development
-```
-
-A partir de agora, determinadas as implementações, para cada feature será criado um novo branch.
+- Criar o repositório no github;
+- Configurar o projeto/repositório no ambiente local, adicionando o repositório remoto (github) ao git;
+- Criar um arquivo README.md adicionando a descrição inicial do projeto;
+- Realizar o primeiro commit;
+- Versionar o primeiro commit;
+- Enviar as alterações/tag para o github;
+- No ambiente local:
+	- criar um branch da master para o desenvolvimento chamada `development`;
+	- criar um branch para cada feature a seguir:
+		1. Página básica: Criando a estrutura e preenchendo o conteúdo básico.
+		2. Posicionamento, listas e navegação.
+		3. Trabalhando com formulário e tabelas.
+		4. Melhorando o CSS.
+	- criar um branch de release;
+	- caso necessário, criar branches de hotfixes a partir da master;
 
 ## 1. Página Básica
 
-A primeira ação é criar um branch onde será desenvolvida a primeira feature:
+User stories desta feature:
 
-```
-git checkout -b feature/pagina-basica
-```
-
-Como feature inicial criaremos a página básica, composta da estrutura básica do html e todos os elementos definidos na parte 1 do curso. Esses elementos são:
-
-- A estrutura obrigatória do html.
-- As configurações do head.
-- Um cabeçalho composto por um header e um banner.
-- Logo abaixo do cabeçalho algumas informações sobre serviços.
-- Um arquivo .css aplicando um estilo a essa estrutura inicial.
-
-Além disso, o projeto deverá atender ao requisitos e utilização dos seguintes recursos/elementos:
 - Utilizar tags h1 e p; :heavy_check_mark:
 - Utilizar negrito e tag strong; :heavy_check_mark:
 - Ênfase em textos com itálico e tag em; :heavy_check_mark:
@@ -114,12 +70,21 @@ Além disso, o projeto deverá atender ao requisitos e utilização dos seguinte
 - Dividir seções no arquivo de forma básica; :heavy_check_mark:
 - Alterar o comportamento dos elementos; :heavy_check_mark:
 
-## 1.1 Enviando as alterações para o Github
+## 2. Posicionamento, listas e navegação
 
-Atendido a todos os casos de uso anteriores, os próximos passo são:
+User stories desta feature:
 
-- Merge do branch `development` com a feature; :heavy_check_mark:
-- Efetua alguns testes; :heavy_check_mark:
-- Checkout na `master` e merge com a `dev`; :heavy_check_mark:
-- Gera a versão; :heavy_check_mark:
-- Realiza o push; :heavy_check_mark:
+- Revisar o conteúdo html e css, concluindo os `TODO` em aberto; 
+- Criar links; ✔
+- Transformar textos em letras maiúsculas; ✔
+- Revisar estilos com inline e block;
+- Remover decoração de textos; ✔
+- Limpar estilos criados pelo navegador; ✔
+- Utilizar posicionamento static, relative ou absolute; ✔
+- Utilizar a tag main; ✔
+- Pseudo-classes:Aplicar comportamentos com hover/active; 
+- Estilizar bordas;
+- Utilizar tag footer; ✔
+- Utilizar imagem como background;
+- Conhecer a tabela unicode;
+
