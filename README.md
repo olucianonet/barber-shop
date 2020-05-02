@@ -70,21 +70,24 @@ User stories desta feature:
 - Dividir seções no arquivo de forma básica; :heavy_check_mark:
 - Alterar o comportamento dos elementos; :heavy_check_mark:
 
+![](images/v0.1.0.jpg)
+
 ## 2. Posicionamento, listas e navegação
 
 User stories desta feature:
 
-- Revisar o conteúdo html e css, concluindo os `TODO` em aberto; 
+- Revisar o conteúdo html e css, concluindo os `TODO` em aberto; ✔
 - Criar links; ✔
 - Transformar textos em letras maiúsculas; ✔
-- Revisar estilos com inline e block;
+- Revisar estilos com inline e block; ✔
 - Remover decoração de textos; ✔
 - Limpar estilos criados pelo navegador; ✔
 - Utilizar posicionamento static, relative ou absolute; ✔
 - Utilizar a tag main; ✔
-- Pseudo-classes:Aplicar comportamentos com hover/active; 
-- Estilizar bordas;
+- Pseudo-classes:Aplicar comportamentos com hover/active; ✔
+- Estilizar bordas; ✔
 - Utilizar tag footer; ✔
-- Utilizar imagem como background;
-- Conhecer a tabela unicode;
+- Utilizar imagem como background; ✔
+- Conhecer a tabela unicode; ✔
 
+![](images/v0.2.0.jpg)
