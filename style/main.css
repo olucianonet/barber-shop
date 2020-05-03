@@ -1,6 +1,4 @@
-header {
-  
-}
+header {}
 
 header h1 {
   font-size: 35px;
@@ -106,7 +104,50 @@ p {
   margin-top: 0 !important;
 }
 
-/*-- attendance --*/
+#services {
+  padding: 40px 0;  
+  /*line-height: 3em;*/
+  text-align: center;
+}
+
+#services h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900; 
+}
+
+#services .container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+#services .container h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+
+#services .price {
+  font-size: 20px;
+  font-weight: 600;  
+  padding: 15px 0;
+}
+
+#services .container li {
+  display: inline-block;
+  border: 3px solid #000;
+  border-radius: 20px;
+  padding: 20px 10px;
+  margin: 0 1.4%;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+#attendance {
+  padding: 40px 0;  
+  line-height: 3em;
+}
+
 #attendance h2 {
   text-align: center;
   font-size: 25px;
@@ -118,12 +159,29 @@ p {
   margin: 0 auto;
 }
 
+#attendance table {
+  width: 100%;  
+  text-align: center;
+  border: 3px solid #000;
+}
 
-/*-- contact --*/
+th, td  {
+  border: 1px solid #000;
+}
+
+th {
+  background: #CCC;
+  color: #FFF;
+  font-weight: 900;
+}
+
+th {
+  border-bottom: 3px solid #000;
+}
+
 #contact {
   padding: 40px 0;  
   line-height: 3em;
-  /*text-align: center;*/
 }
 
 #contact .container {
@@ -165,7 +223,7 @@ fieldset label {
 .submit:hover {
   background: #906258;
 }
-/*-- footer --*/
+
 footer {
   background-image: url("../images/bg.jpg");
   border-top: 3px solid #555; 

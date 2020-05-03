@@ -14,11 +14,13 @@
         <ul>
           <li class="navbar-item"><a href="#">Home</a></li>
           <li class="navbar-item"><a href="#info">Informações</a></li>
+          <li class="navbar-item"><a href="#services">Serviços</a></li>        
+          <li class="navbar-item"><a href="#attendance">Atendimento</a></li>
           <li class="navbar-item"><a href="#contact">Contato</a></li>
         </ul>
       </nav>
     </div>
-    <img class="banner" src="images/banner.jpg">
+    <img class="banner" src="images/banner.jpg" alt="Banner do Site">
   </header>  
   <main>
     <div id="info">
@@ -37,16 +39,77 @@
             <li>Profissionais</li>
           </ul>    
         </div>
-        <img class="info-plus-image" src="images/features.jpg">
+        <img class="info-plus-image" src="images/features.jpg" alt="Cliente em atendimento">
+      </div>
+    </div>
+    <div id="services">
+      <div class="container">
+        <h2>Serviços</h2>
+        <ul>
+          <li>
+            <h3>Barba</h3>
+            <img src="images/barba.jpg" alt="Ilustração de barba">
+            <p>Corte e desenho profissional de barba</p>
+            <p class="price">$25</p>
+          </li>
+          <li>
+            <h3>Cabelo</h3>
+            <img src="images/cabelo.jpg"  alt="Ilustração de cabelo">
+            <p>Na tesoura ou máquina, como o cliente preferir</p>
+            <p class="price">$30</p>
+          </li>
+          <li>
+            <h3>Barba+Cabelo</h3>
+            <img src="images/cabelo+barba.jpg"  alt="Ilustração de cabelo+barba">
+            <p>Pacote completo de cabelo e barba</p>
+            <p class="price">$50</p>
+          </li>                    
+        </ul>
       </div>
     </div>
     <div id="attendance">
       <div class="container">
         <h2>Atendimento</h2>
+        <!-- TODO: Horários da tabela divergem dos seletores, somente ilustrativo -->
         <table>
-          
+          <thead>
+          <tr>
+            <th>Dia da Semana</th>
+            <th>Horário</th>
+          </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Domingo</td>
+              <td>14h00 ~ 22h00</td>
+            </tr>          
+            <tr>
+              <td>Segunda</td>
+              <td>08h00 ~ 18h00</td>
+            </tr>
+            <tr>
+              <td>Terça</td>
+              <td>08h00 ~ 18h00</td>
+            </tr>
+            <tr>
+              <td>Quarta</td>
+              <td>08h00 ~ 18h00</td>
+            </tr>
+            <tr>
+              <td>Quinta</td>
+              <td>08h00 ~ 18h00</td>
+            </tr>
+            <tr>
+              <td>Sexta</td>
+              <td>08h00 ~ 18h00</td>
+            </tr>
+            <tr>
+              <td>Sábado</td>
+              <td>08h00 ~ 00h00</td>
+            </tr>
+          </tbody>
         </table>
-      </div>
+      </div>      
     </div>
     <div id="contact">
         <div class="container">
@@ -81,9 +144,9 @@
               <input 
               type="checkbox" name="services" id="cabelo" value="cabelo">Cabelo
               </label>
-              <label for="bigode">
+              <label for="barba+cabelo">
               <input 
-              type="checkbox" name="services" id="bigode" value="bigode">Bigode
+              type="checkbox" name="services" id="barba+cabelo" value="barba+cabelo">Barba+Cabelo
               </label>
             </fieldset>
             <fieldset>
@@ -136,4 +199,3 @@
   </footer>
 </body>
 </html>
-<!-- TODO: Add alt nas imagens -->

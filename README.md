@@ -98,7 +98,7 @@ User stories desta feature:
 
 - implementar um formulário de contato contendo:
 	- form ✔
-	- inputs (email, tel, number, password, date, datetime, month, search)
+	- inputs (email, tel, number, password, date, datetime, month, search) ✔
 		- atributos required, placeholder  ✔
 	- for (associados) ✔
 	- label (associados) ✔
@@ -114,12 +114,14 @@ User stories desta feature:
 - cursor ✔
 - transform
 - implementar uma tabela contendo tags:
-	- table
-	- tr
-	- td
-	- thread
-	- tbody
-	- th
-	- tfoot
-	- estilo
-- criar um seção para os produtos
+	- table ✔
+	- tr ✔
+	- td ✔
+	- thead ✔
+	- tbody  ✔
+	- th ✔
+	- tfoot ✔
+	- estilo ✔
+- criar um seção para os produtos  ✔
+
+![](images/v0.4.0.jpg)
