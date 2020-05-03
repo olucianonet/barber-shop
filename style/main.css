@@ -106,8 +106,66 @@ p {
   margin-top: 0 !important;
 }
 
-/*-- novo css --*/
+/*-- attendance --*/
+#attendance h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900; 
+}
 
+#attendance .container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+
+/*-- contact --*/
+#contact {
+  padding: 40px 0;  
+  line-height: 3em;
+  /*text-align: center;*/
+}
+
+#contact .container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900; 
+}
+
+#contact p {
+  text-align: center;
+}
+
+.form-element-large {
+  display: block;
+  width: 100%;
+  padding: 20px 20px;  
+  box-sizing: border-box;
+}
+
+.submit {
+  font-weight: 900;
+  margin: 2em auto;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #CCC;
+  transition: 1s;
+}
+
+fieldset label {
+  display: block;
+}
+
+.submit:hover {
+  background: #906258;
+}
+/*-- footer --*/
 footer {
   background-image: url("../images/bg.jpg");
   border-top: 3px solid #555; 
@@ -120,5 +178,3 @@ footer .container {
   width: 940px;
   margin: 0 auto;
 }
-
-footer

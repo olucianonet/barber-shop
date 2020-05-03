@@ -91,3 +91,35 @@ User stories desta feature:
 - Conhecer a tabela unicode; ✔
 
 ![](images/v0.2.0.jpg)
+
+## 3. Trabalhando com formulários e tabelas
+
+User stories desta feature:
+
+- implementar um formulário de contato contendo:
+	- form ✔
+	- inputs (email, tel, number, password, date, datetime, month, search)
+		- atributos required, placeholder  ✔
+	- for (associados) ✔
+	- label (associados) ✔
+	- submit ✔
+	- estilo ✔
+	- radio buttons ✔
+	- checkbox ✔
+	- select ✔
+	- fieldset ✔
+- texto alternativo em imagens
+- legend ✔
+- transition ✔
+- cursor ✔
+- transform
+- implementar uma tabela contendo tags:
+	- table
+	- tr
+	- td
+	- thread
+	- tbody
+	- th
+	- tfoot
+	- estilo
+- criar um seção para os produtos

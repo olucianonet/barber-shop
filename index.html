@@ -13,7 +13,8 @@
       <nav class="navbar">
         <ul>
           <li class="navbar-item"><a href="#">Home</a></li>
-          <li class="navbar-item"><a href="#info">Informações</a></li>         
+          <li class="navbar-item"><a href="#info">Informações</a></li>
+          <li class="navbar-item"><a href="#contact">Contato</a></li>
         </ul>
       </nav>
     </div>
@@ -39,6 +40,93 @@
         <img class="info-plus-image" src="images/features.jpg">
       </div>
     </div>
+    <div id="attendance">
+      <div class="container">
+        <h2>Atendimento</h2>
+        <table>
+          
+        </table>
+      </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+          <h2>Contato</h2>
+          <p>Agende seu horário on-line e escolha os serviços desejados: </p>
+          <form>
+            <!-- TODO: Testar o input fora do label -->
+            <label for="name">Nome: 
+              <input id="name" class="form-element-large" type="text" name="name" placeholder="Nome" required>
+            </label>
+            <label for="email">Email: 
+              <input id="email" class="form-element-large" type="email" name="email" placeholder="E-mail"
+              required>
+            </label>
+            <label for="fone">Telefone: 
+              <input id="fone" class="form-element-large"
+              type="tel" name="fone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" 
+              title="Entre com somente números"
+              placeholder="99-99999-9999" required>
+            </label> 
+            <label for="message">Comentários: 
+              <textarea class="form-element-large"
+              name="message" id="message" placeholder="Comentários"></textarea>
+            </label>           
+            <fieldset>
+              <legend>Quais serviços gostaria de adquirir?</legend>
+              <label for="barba">
+              <input 
+              type="checkbox" name="services" id="barba" value="barba">Barba
+              </label>
+              <label for="cabelo">
+              <input 
+              type="checkbox" name="services" id="cabelo" value="cabelo">Cabelo
+              </label>
+              <label for="bigode">
+              <input 
+              type="checkbox" name="services" id="bigode" value="bigode">Bigode
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Qual dia da semana?</legend>
+              <select>
+              <option>Domingo</option>
+              <option>Segunda-Feira</option>
+              <option>Terça-Feira</option>
+              <option>Quarta-Feira</option>
+              <option>Quinta-Feira</option>
+              <option>Sexta-Feira</option>
+              <option>Sábado</option>
+              </select>
+            </fieldset>
+            <fieldset>
+              <legend>Qual horário?</legend>
+              <select>
+                <option value="8">08:00</option>
+                <option value="9">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+                <option value="13">13:00</option>
+                <option value="14">14:00</option>
+                <option value="15">15:00</option>
+                <option value="16">16:00</option>
+                <option value="17">17:00</option>
+                <option value="18">18:00</option>
+             </select>
+            </fieldset>            
+            <fieldset>
+              <legend>Como gostaria de ser contatado?</legend>
+                <label for="contact2"><input type="radio" id="contact2" name="contact" value="whatsapp">WhatsApp</label>
+                <label for="contact1" class="form-element-option">
+                  <input type="radio" id="contact1" name="contact"             
+                value="Telefone">Telefone
+                </label>                
+                <label for="contact3"><input type="radio" id="contact3" name="contact" value="email">E-mail</label>
+            </fieldset>
+            <input class="submit form-element-large" type="submit" value="Enviar">
+          </form>
+        </div>
+    </div>
   </main>
   <footer>
     <div class="container">
@@ -48,3 +136,4 @@
   </footer>
 </body>
 </html>
+<!-- TODO: Add alt nas imagens -->
