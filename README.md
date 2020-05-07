@@ -125,3 +125,24 @@ User stories desta feature:
 - criar um seção para os produtos  ✔
 
 ![](images/v0.4.0.jpg)
+
+## 4. Avançando no CSS
+
+User stories dessa feature:
+
+- padronizar as seções
+- aplicar fluturação com float/clear
+- utilizar fontes externa
+- incorporar um mapa
+- incorporar um video
+- novas pseudo-classes
+- pseudo-elementos
+- bg gradiente
+- seletores avançados com
+	- +, >, ~, not, 
+- calc
+- aplicar opacity
+- box-shadow
+- text-shadow
+
+![]()
