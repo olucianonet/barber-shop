@@ -4,17 +4,19 @@
   <meta charset="utf-8">
   <title>Barber SHOP | Viva com estilo</title>  
   <link rel="stylesheet" type="text/css" href="style/reset.css">
-  <link rel="stylesheet" type="text/css" href="style/main.css">  
+  <link rel="stylesheet" type="text/css" href="style/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">   
 </head>
 <body>
   <header>
     <div class="container">
-      <h1>Barber SHOP</h1>
+      <a href="#"><h1>Barber SHOP</h1></a>
       <nav class="navbar">
         <ul>
           <li class="navbar-item"><a href="#">Home</a></li>
           <li class="navbar-item"><a href="#info">Informações</a></li>
-          <li class="navbar-item"><a href="#services">Serviços</a></li>        
+          <li class="navbar-item"><a href="#services">Serviços</a></li>
+          <li class="navbar-item"><a href="#placement">Localização</a></li>    
           <li class="navbar-item"><a href="#attendance">Atendimento</a></li>
           <li class="navbar-item"><a href="#contact">Contato</a></li>
         </ul>
@@ -23,53 +25,66 @@
     <img class="banner" src="images/banner.jpg" alt="Banner do Site">
   </header>  
   <main>
-    <div id="info">
-      <h2>Informações</h2>
+    <section id="info">
       <div class="container">
-        <p>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong></p>
-        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-      </div>
-      <div class="container">
-        <div class="info-plus-list">
-          <h3>Como cliente, você terá o melhor em:</h3>
-          <ul>
-            <li>Atendimento </li>
-            <li>Espaço</li>
-            <li>Localização</li>
-            <li>Profissionais</li>
-          </ul>    
+        <h2 class="section-title">Informações</h2>      
+        <div class="container">
+          <img class="info-image" src="images/utensilios.jpg" alt="Utensilios de barbearia">
+          <p>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong></p>
+          <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
         </div>
-        <img class="info-plus-image" src="images/features.jpg" alt="Cliente em atendimento">
-      </div>
-    </div>
-    <div id="services">
+        <div class="container">
+          <div class="info-list">
+            <h3 class="section-subtitle">Como cliente, você terá o melhor em:</h3>
+            <ul>
+              <li>Atendimento </li>
+              <li>Espaço</li>
+              <li>Localização</li>
+              <li>Profissionais</li>
+            </ul>    
+          </div>
+          <!-- Verificar elementos adicionais de uma img -->
+          <img class="info-image" src="images/features.jpg" alt="Cliente em atendimento">
+        </div>
+        <div class="container">
+          <iframe height="500" src="https://www.youtube.com/embed/45Nhhx1dGCU?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>        
+    </section>
+    <section id="services">
       <div class="container">
-        <h2>Serviços</h2>
+       <h2 class="section-title">Serviços</h2>
         <ul>
           <li>
             <h3>Barba</h3>
-            <img src="images/barba.jpg" alt="Ilustração de barba">
+            <img src="images/barba.png" alt="Ilustração de barba">
             <p>Corte e desenho profissional de barba</p>
             <p class="price">$25</p>
           </li>
           <li>
             <h3>Cabelo</h3>
-            <img src="images/cabelo.jpg"  alt="Ilustração de cabelo">
+            <img src="images/cabelo.png"  alt="Ilustração de cabelo">
             <p>Na tesoura ou máquina, como o cliente preferir</p>
             <p class="price">$30</p>
           </li>
           <li>
             <h3>Barba+Cabelo</h3>
-            <img src="images/cabelo+barba.jpg"  alt="Ilustração de cabelo+barba">
+            <img src="images/cabelo+barba.png"  alt="Ilustração de cabelo+barba">
             <p>Pacote completo de cabelo e barba</p>
             <p class="price">$50</p>
           </li>                    
         </ul>
       </div>
-    </div>
-    <div id="attendance">
+    </section>
+    <section id="placement">
       <div class="container">
-        <h2>Atendimento</h2>
+        <h2 class="section-title">Localização</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4276.772116907037!2d-74.00120384033642!3d40.7150540935208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xac719a7109ea493f!2sNew%20York%20Barber%20Shop!5e0!3m2!1spt-BR!2sbr!4v1588950311775!5m2!1spt-BR!2sbr" width=100% height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </section>
+    <section id="attendance">
+      <div class="container">
+       <h2 class="section-title">Atendimento</h2>
         <!-- TODO: Horários da tabela divergem dos seletores, somente ilustrativo -->
         <table>
           <thead>
@@ -110,30 +125,25 @@
           </tbody>
         </table>
       </div>      
-    </div>
-    <div id="contact">
+    </section>
+    <section id="contact">
         <div class="container">
-          <h2>Contato</h2>
-          <p>Agende seu horário on-line e escolha os serviços desejados: </p>
+         <h2 class="section-title">Contato</h2>
+          <p>Agende seu horário on-line e escolha os serviços desejados, preenchendo o formulário abaixo: </p>
           <form>
-            <!-- TODO: Testar o input fora do label -->
-            <label for="name">Nome: 
-              <input id="name" class="form-element-large" type="text" name="name" placeholder="Nome" required>
-            </label>
-            <label for="email">Email: 
-              <input id="email" class="form-element-large" type="email" name="email" placeholder="E-mail"
-              required>
-            </label>
-            <label for="fone">Telefone: 
-              <input id="fone" class="form-element-large"
-              type="tel" name="fone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" 
-              title="Entre com somente números"
-              placeholder="99-99999-9999" required>
-            </label> 
-            <label for="message">Comentários: 
-              <textarea class="form-element-large"
-              name="message" id="message" placeholder="Comentários"></textarea>
-            </label>           
+            <fieldset>
+              <div class="text-fields">
+                <input id="name" class="form-element-large" type="text" name="name" placeholder="Nome" required> 
+                <input id="email" class="form-element-large" type="email" name="email" placeholder="E-mail"
+                required>
+                <input id="fone" class="form-element-large"
+                type="tel" name="fone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" 
+                title="Entre com somente números"
+                placeholder="99-99999-9999" required>             
+                <textarea class="form-element-large"
+                name="message" id="message" placeholder="Comentários"></textarea>
+              </div>              
+            </fieldset>              
             <fieldset>
               <legend>Quais serviços gostaria de adquirir?</legend>
               <label for="barba">
@@ -189,12 +199,12 @@
             <input class="submit form-element-large" type="submit" value="Enviar">
           </form>
         </div>
-    </div>
+    </section>
   </main>
   <footer>
     <div class="container">
-      <p>Barber SHOP</p>
-      <p>&copy; 2020</p>
+      <p class="row">Barber <strong>SHOP</strong></p>
+      <p class="row">&copy; 2020</p>
     </div>
   </footer>
 </body>

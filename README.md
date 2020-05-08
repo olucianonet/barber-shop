@@ -108,7 +108,7 @@ User stories desta feature:
 	- checkbox ✔
 	- select ✔
 	- fieldset ✔
-- texto alternativo em imagens
+- texto alternativo em imagens ✔
 - legend ✔
 - transition ✔
 - cursor ✔
@@ -130,19 +130,21 @@ User stories desta feature:
 
 User stories dessa feature:
 
-- padronizar as seções
-- aplicar fluturação com float/clear
-- utilizar fontes externa
-- incorporar um mapa
-- incorporar um video
-- novas pseudo-classes
-- pseudo-elementos
-- bg gradiente
-- seletores avançados com
-	- +, >, ~, not, 
-- calc
-- aplicar opacity
-- box-shadow
-- text-shadow
+- padronizar as seções ✔
+- aplicar fluturação com float/clear ✔
+- utilizar fontes externa ✔
+- incorporar um mapa ✔
+- incorporar um video ✔
+- novas pseudo-classes ✔
+- pseudo-elementos ✔
+- bg gradiente ✔
+- seletores avançados com ✔
+	- +, >, ~, not,  ✔
+- calc  ✔
+- aplicar opacity ✔
+- box-shadow ✔
+- text-shadow ✔
+- estilizar com simbolos unicode ✔
+- revisar TODO's ✔
 
-![]()
+![](images/v0.5.0.jpg)

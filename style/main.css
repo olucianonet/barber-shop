@@ -1,15 +1,22 @@
-header {}
-
-header h1 {
-  font-size: 35px;
-  font-weight: 900;
+*, html {
+  font-family: 'Open Sans', sans-serif;  
 }
 
 header .container {
-  padding: 20px 0;
+  padding: 30px 0;
   width: 940px;
   position: relative;
   margin: 0 auto;
+}
+
+header a h1 {
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+  font-weight: 800;
+  display: inline-block;
+  /*text-shadow: 3px 3px 3px #CCC;*/
+  text-shadow: 0px 0px 15px #CCC;
 }
 
 .navbar {
@@ -28,7 +35,7 @@ header .container {
   color: #000;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .navbar-item a:hover {
@@ -42,26 +49,40 @@ header .container {
   text-decoration: underline;
 }
 
-/*-- novas configs --*/
-.header h1 {
-  font-size: 30px;
-  font-weight: 900;
-  padding: 20px 20px;
-}
-
 .banner {
   width: 100%;
 }
 
-#info {
-  background: #CCC;
-  text-align: center;
-  padding: 40px 0;
+.main {
+  background: linear-gradient(#CCC, #FFF);
 }
 
-#info h2 {
-  font-size: 25px;
-  font-weight: 900;  
+.container {
+  padding: 20px 0;
+  width: 940px;
+  margin: 0 auto;  
+  line-height: 2em;  
+}
+
+.section-title {
+  padding: 30px 0;
+  font-size: 40px;
+  font-weight: 800;  
+  text-align: center;
+}
+
+.section-subtitle {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+iframe {
+  width: 940px;
+  box-sizing: border-box;
+}
+
+#info {
+  /*text-align: center; */
 }
 
 #info p strong {
@@ -69,35 +90,38 @@ header .container {
   font-weight: 900;
 }
 
-#info .container {
-  width: 940px;
-  margin: 0 auto;
-  line-height: 2em;
-}
-
-.info-plus-list {
-  width: 46%;
+.info-list {
+  width: 71%;
   display: inline-block;
   vertical-align: top;  
-  margin: 0 1.5%;
+  text-align: left;
+  margin: 0 0 0 1.5%;
   box-sizing: border-box;
 }
 
-.info-plus-image {
-  display: inline-block;
-  width: 46%;
-  margin: 0 1.5%;
-  box-sizing: border-box;  
+.info-list li:before {
+  content: "✔ ";
+}
+
+.info-image:nth-child(1) {
+/*  display: inline-block;*/
+  float: left;
+  width: 10%;
+  margin: 0 1.5% 0 0;
   border-radius: 10px;
+  box-sizing: border-box;  
 }
 
-.info-plus-list h3 {
-  font-size: 18px;
-  font-weight: bold;
+.info-image:nth-child(2) {
+  display: inline-block;
+  width: 25%;
+  margin: 0 0 0 1.5%;
+  border-radius: 10px;
+  box-sizing: border-box;  
 }
 
-.container {
-  padding: 20px 0;
+.info-image:hover {
+  opacity: 0.7;
 }
 
 p {
@@ -106,31 +130,28 @@ p {
 
 #services {
   padding: 40px 0;  
-  /*line-height: 3em;*/
   text-align: center;
-}
 
-#services h2 {
-  text-align: center;
-  font-size: 25px;
-  font-weight: 900; 
-}
-
-#services .container {
-  width: 940px;
-  margin: 0 auto;
 }
 
 #services .container h3 {
   font-size: 20px;
   font-weight: 600;
-  line-height: 1.5em;
+}
+
+#services li {
+ /* box-shadow: 5px 5px 15px 10px #CCC;*/
+}
+
+#services li:hover {
+  background: linear-gradient(#FFF, #CCC);
+  box-shadow: 5px 5px 15px 10px #CCC;
 }
 
 #services .price {
   font-size: 20px;
   font-weight: 600;  
-  padding: 15px 0;
+  padding: 15px 0;  
 }
 
 #services .container li {
@@ -148,21 +169,11 @@ p {
   line-height: 3em;
 }
 
-#attendance h2 {
-  text-align: center;
-  font-size: 25px;
-  font-weight: 900; 
-}
-
-#attendance .container {
-  width: 940px;
-  margin: 0 auto;
-}
-
 #attendance table {
-  width: 100%;  
+  width: 80%;  
   text-align: center;
   border: 3px solid #000;
+  margin: 0 auto;
 }
 
 th, td  {
@@ -170,7 +181,7 @@ th, td  {
 }
 
 th {
-  background: #CCC;
+  background: #906258;
   color: #FFF;
   font-weight: 900;
 }
@@ -179,20 +190,13 @@ th {
   border-bottom: 3px solid #000;
 }
 
+tr:nth-child(2n) {
+  background: #CCC;
+}
+
 #contact {
   padding: 40px 0;  
-  line-height: 3em;
-}
-
-#contact .container {
-  width: 940px;
-  margin: 0 auto;
-}
-
-#contact h2 {
-  text-align: center;
-  font-size: 25px;
-  font-weight: 900; 
+  
 }
 
 #contact p {
@@ -216,6 +220,33 @@ th {
   transition: 1s;
 }
 
+input, textarea {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  border: 1px solid #CCC ;
+  border-radius: 5px;
+}
+
+.text-fields input, textarea {
+  margin-bottom: 30px;
+}
+
+input:hover, textarea:hover {
+  box-shadow: inset 0 0 10px #CCC;
+}
+
+input:focus, textarea:focus {
+  background: #CCC;
+}
+
+fieldset:first-child {
+  margin-bottom: 0;
+} 
+
+fieldset {
+  margin: 0 0 30px 0;
+}
+
 fieldset label {
   display: block;
 }
@@ -231,8 +262,13 @@ footer {
 
 footer .container {
   color: #FFF;
-  line-height: 1.5em;
-  text-align: center;
-  width: 940px;
-  margin: 0 auto;
+  text-align: center;  
+}
+
+footer > .container > p.row > strong {
+  font-weight: 800;
+}
+
+.row:nth-child(2) {
+  font-size: 12px;
 }
